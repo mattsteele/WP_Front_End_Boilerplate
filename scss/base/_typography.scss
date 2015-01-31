@@ -1,0 +1,175 @@
+/*--------------------------------------------------------------
+  XX.X Typography
+--------------------------------------------------------------*/
+
+
+// -- Display Font Helpers -- //
+
+body {
+	background: $body-background-color;
+	font-family: $body-font;
+	font-size: $body-font-size;
+	line-height: $body-line-height;
+	color: $body-font-color;
+}
+
+// -- Define Sizes -- //
+
+h1 {font-size: 26px; line-height: 1.1;}
+h2 {font-size: 21px; line-height: 1.2;}
+h3 {font-size: 19px; line-height: 1.1;}
+h4 {font-size: 17px; line-height: 1.4;}
+h5 {font-size: 15px; line-height: 1.5;}
+h6 {font-size: 13px; line-height: 1.6;}
+
+
+// -- Define Colors -- //
+
+p {color: $body-font-color;}
+
+h1{
+	color: $pure-black;
+	font-weight: $font-family-weight-3;
+	a{
+		color: $grey-4;
+		&:hover{
+			color: $blue-1;
+		}
+	}
+}
+
+h2{
+	color: $pure-black;
+	font-weight: $font-family-weight-3;
+	a{
+		color: $grey-4;
+		&:hover{
+			color: $blue-1;
+		}
+	}
+}
+
+h3{
+	color: $pure-black;
+	font-weight: $font-family-weight-3;
+	a{
+		color: $grey-4;
+		&:hover{
+			color: $blue-1;
+		}
+	}
+}
+
+h4{
+	color: $pure-black;
+	font-weight: $font-family-weight-3;
+	a{
+		color: $grey-4;
+		&:hover{
+			color: $blue-1;
+		}
+	}
+}
+
+h5{
+	color: $pure-black;
+	font-weight: $font-family-weight-3;
+	a{
+		color: $grey-4;
+		&:hover{
+			color: $blue-1;
+		}
+	}
+}
+
+h6{
+	color: $pure-black;
+	font-weight: $font-family-weight-3;
+	a{
+		color: $grey-4;
+		&:hover{
+			color: $blue-1;
+		}
+	}
+}
+
+// -- Define Icons -- //
+
+@font-face {
+  font-family: 'site-icon';
+  src:url('/a/f/site-icon.eot?epvx5l');
+  src:url('/a/f/site-icon.eot?#iefixepvx5l') format('embedded-opentype'),
+    url('/a/f/site-icon.woff?epvx5l') format('woff'),
+    url('/a/f/site-icon.ttf?epvx5l') format('truetype'),
+    url('/a/f/site-icon.svg?epvx5l#site-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.site-icon {
+  font-family: 'site-icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+abbr[title] {border-bottom: 1px dotted;}
+b,
+strong {font-weight: bold;}
+blockquote {margin: 1em 40px;}
+dfn {font-style: italic;}
+mark {background: #ff0; color: #000;}
+pre {margin: 1em 0;}
+code,
+kbd,
+pre,
+samp {font-family: monospace, serif; font-family: 'courier new', monospace; font-size: 1em;}
+pre {white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+q {quotes: none;}
+q:before,
+q:after {content: ''; content: none;}
+small {font-size: 80%;}
+sub,
+sup {font-size: 75%; line-height: 0; position: relative; vertical-align: baseline;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+nav ul {list-style-type: none;}
+hr {margin: 10px 0 10px 0;}
+
+
+
+// Font helpers
+
+.fs10 {
+  font-size: 10px; 
+}
+.fs11 {
+  font-size: 11px; 
+}
+.fs12 {
+  font-size: 12px; 
+}
+.fs14 {
+  font-size: 14px; 
+}
+.fs16 {
+  font-size: 16px; 
+}.fs18 {
+  font-size: 18px; 
+}
+.fs21 {
+  font-size: 21px; 
+}
+.fs24 {
+  font-size: 24px; 
+}
+.fs36 {
+  font-size: 36px; 
+}

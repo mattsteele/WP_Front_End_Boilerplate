@@ -1,0 +1,119 @@
+/*--------------------------------------------------------------
+  XX.X WordPress Built-in Styles
+--------------------------------------------------------------*/
+
+WordPress Comments Defaults
+
+
+// BODY
+
+.home {} /* if it's the homepage */
+.page {} /* if it's any page */
+.postid-XX {} /* if it's a post - XX is the post's ID */
+.rtl {} /* when dealing with right-to-left content */
+.blog {} /* if it's the custom blog listing */
+.archive {} /* if it's any sort of archive page */
+.category {} /* if it's a categories listing page */
+.tag {} /* if it's a tags listing page */
+.search .search-results {} /* if it's a search results page */
+.author {} /* if it's an authors page */
+.author-XX {} /* if it's an individual author's archive - XX is the author's nickname */
+.date {} /* if it's a date-based archives page */
+.error404 {} /* if it's a 404 page */
+
+
+
+
+// POSTS AND PAGES
+
+.post-XX {} /* the ID of the element being displayed; used for both the posts and the pages */
+.post {} /* if it's a post */
+.page {} /* if it's a page */
+.attachment {} /* if it's an attachment; on most sites this is not used */
+.sticky {} /* if it's a sticky post */
+.format-YY {} /* assigned to custom content types - YY is the name of the content type, e.g. "audio" */
+
+
+
+
+// WYSIWYG
+
+/* the main classes used for alignment */
+.alignnone {}
+.alignleft {}
+.alignright {}
+.aligncenter {}
+img.alignnone {}
+img.alignleft {}
+img.alignright {}
+img.aligncenter {}
+
+.wp-caption {} /* img caption */
+.gallery {}
+.gallery-caption {}
+
+/* styles for img sizes */
+img.size-full {}
+img.size-large {}
+img.size-medium {}
+img.size-thumbnail {}
+
+/* not classes, but surely something you should take care of */
+blockquote {}
+code {}
+pre {}
+hr {}
+del {}
+
+
+
+// WIDGETS
+
+.widget {} /* top level class for every widget */
+.widget-title {} /* usually on the inner header element */
+
+/* Archives */
+.widget_archive {} /* used next to .widget (on the same tag) */
+
+/* Calendar */
+.widget_calendar {} /* used next to .widget (on the same tag) */
+#calendar_wrap {} /* on &lt;div&gt; wrapping the calendar */
+#wp-calendar {} /* on &lt;table&gt; building the calendar */
+
+/* Categories */
+.widget_categories {} /* used next to .widget (on the same tag) */
+.cat-item {} /* on each item in the &lt;ul&gt; list */
+
+/* Custom Menu */
+.widget_nav_menu {} /* used next to .widget (on the same tag) */
+.menu-item {}
+
+/* Meta */
+.widget_meta {} /* used next to .widget (on the same tag) */
+
+/* Pages */
+.widget_pages {} /* used next to .widget (on the same tag) */
+.page_item {}
+
+/* Recent Comments */
+.widget_recent_comments {} /* used next to .widget (on the same tag) */
+.recentcomments {} /* on each item in the &lt;ul&gt; list */
+
+/* Recent Posts */
+.widget_recent_entries {} /* used next to .widget (on the same tag) */
+
+/* RSS */
+.widget_rss {} /* used next to .widget (on the same tag) */
+.rsswidget {} /* on each RSS link */
+
+/* Search */
+.widget_search {} /* used next to .widget (on the same tag) */
+.search-form {} /* used with the actual &lt;form&gt; element */
+
+/* Tag Cloud */
+.widget_tag_cloud {} /* used next to .widget (on the same tag) */
+.tagcloud {} /* on the <div> wrapping the cloud */
+
+/* Text */
+.widget_text {} /* used next to .widget (on the same tag) */
+.textwidget {} /* on the actual text content of the widget */

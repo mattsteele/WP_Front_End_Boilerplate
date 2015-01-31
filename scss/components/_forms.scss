@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------
+  XX.X Forms
+--------------------------------------------------------------*/
+
+
+/* -- Placeholder Text -- */
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #96968d;}
+input:-moz-placeholder, textarea:-moz-placeholder {color: #96968d;}
+input::-moz-placeholder, textarea::-moz-placeholder {color: #96968d;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #96968d;}
+
+/* -- Styled Selects - wrapped due to FF appearance bug -- */
+.styled-select {display: block; margin: 0; padding: 0; width: auto; max-width: 50%; height: auto; background:url(../i/select_arrow.png) no-repeat 98% center #fff; border: 1px solid #ccc; overflow: hidden; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;}
+.styled-select select {display: block; margin: 0; white-space: nowrap; width: 100%; outline: none; border: none; background: transparent; cursor: pointer; -moz-appearance: window; -webkit-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; outline: none;}
+.styled-select:hover {-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2); -moz-box-shadow: 0 0 3px rgba(0,0,0,.2); -o-box-shadow: 0 0 3px rgba(0,0,0,.2); -khtml-box-shadow: 0 0 3px rgba(0,0,0,.2); box-shadow: 0 0 3px rgba(0,0,0,.2);}
+
+
+/* -- Basic form defaults-- */
+
+form p {padding: 10px 0;}
+label {display: block; padding: 5px 0;}
+
+/* -- Form Error Display -- */
+.error-placehold {float: right; font-size: 12px; font-size: 1.2rem; color: #999;}
+.field-error .error_placehold,
+.field-error input {color: #b42719;}
+.styled-select.field_error,
+.field-error input {border: 1px solid #b42719;}
+
+/* -- Two Column Form -- */
+.two-col-form {position: relative; border: 1px solid #ccc; padding: 20px 0; width: auto;}
+.two-col-form legend {position: absolute; top: -.75em; background: #fff;}
+.two-col-form fieldset {float: left; width: 46%; padding: 0 2% 20px 2%; border: none;}
+.two-col-form fieldset.first {border-right: 1px solid #ccc; margin-right: -1px;}
+.two-col-form input[type=text],
+.two-col-form input[type=url],
+.two-col-form input[type=password],
+.two-col-form input[type=email] {width: 96%; padding-left: 2%; padding-right: 2%;}
+.two-col-form .styled_select {max-width: none;}
+.two-col-form .button_row {clear: both; padding: 0 2%;}
+
+.form-success{
+  background-color: #FFCC66;
+  color: #fff;
+  width: 92.5%;
+  margin: 10px 0;
+  border: 5px solid green;
+  padding: 10px;
+}
+
+.form-errors{
+  background-color: #D1625B;
+  color: #fff;
+  width: 89.5%;
+}
+
+.text-error{
+  color: #ffffff;
+}
+
+.input-label{
+  font-size: 20px;
+  padding-bottom: 0;
+  font-weight: bold;
+}
+
+.input-sub-label{
+  /* font-size: 20px; */
+  padding-bottom: 0;
+}
+
+.split-input-half{
+  width: 80%;
+}
+
+.split-input-whole{
+  width: 90%;
+  height: 200px;
+}

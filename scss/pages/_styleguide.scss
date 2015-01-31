@@ -1,0 +1,130 @@
+/*  STYLEGUIDE
+=================================================================== /// */
+
+/* Set the layout of the styleguide color chips */
+
+.color-chip-spacing{
+	padding: 20px 0 20px 10px;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.color-chip{
+	padding: 10px 30px 10px 30px;
+	margin: 20px;
+	border: 1px solid black;
+}
+
+.styleguide-search-term-width{
+	width: 254px;
+}
+
+.styleguide-search-submit-position{
+	position: absolute;
+	left: 207px;
+}
+
+/* Bring in the colors for the chips. Update below with actual colors used. The colors are set in _variables.scss */
+
+
+
+/* Oranges */
+
+.orange-1{
+	color: $orange-1;
+}
+
+.orange-1-background{
+	background-color: $orange-1;
+}
+
+
+/* Blues */
+.blue-1{
+	color: $blue-1;
+} 
+
+.blue-1-background{
+	background-color: $blue-1;
+}
+
+.blue-2{
+	color: $blue-2;
+} 
+
+.blue-2-background{
+	background-color: $blue-2;
+}
+
+.blue-3{
+	color: $blue-3;
+}
+
+.blue-3-background{
+	background-color: $blue-3;
+}
+
+.blue-4{
+	color: $blue-4;
+}
+
+.blue-4-background{
+	background-color: $blue-4;
+}
+
+
+/* Greys */
+.grey-1{
+	color: $grey-1;
+}
+
+.grey-1-background{
+	background-color: $grey-1;
+}
+
+.grey-2{
+	color: $grey-2;
+}
+
+.grey-2-background{
+	background-color: $grey-2;
+}
+
+.grey-3{
+	color: $grey-3;
+}
+
+.grey-3-background{
+	background-color: $grey-3;
+}
+
+.grey-4{
+	color: $grey-4;
+}
+
+.grey-4-background{
+	background-color: $grey-4;
+}
+
+
+/* Blacks */
+
+.pure-black{
+	color: $pure-black;
+}
+
+.pure-black-background{
+	background-color: $pure-black;
+}
+
+
+/* Whites */
+.pure-white{
+	color: $pure-white;
+}
+
+.pure-white-background{
+	background-color: $pure-white;
+}
+
+

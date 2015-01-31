@@ -1,0 +1,57 @@
+/*--------------------------------------------------------------
+XX.X Style Helpers
+--------------------------------------------------------------*/
+
+strong, .bold {font-weight: bold;}
+.roman, .book {font-weight: normal;}
+.fw100 {font-weight: 100;}.fw200 {font-weight: 200;}.fw300 {font-weight: 300;}
+.fw400 {font-weight: 400;}.fw500 {font-weight: 500;}.fw600 {font-weight: 600;}
+.fw700 {font-weight: 700;}.fw800 {font-weight: 800;}.fw900 {font-weight: 900;}
+
+.block {display: block;}.inline {display: inline;}.inline-block {display: inline-block; *display: inline; zoom: 1;}
+em,.italic {font-style: italic;}.normal {font-style: normal;}.uppercase {text-transform: uppercase;}.lowercase {text-transform: lowercase;}.capitalize {text-transform: capitalize;}.smallcaps {font-variant: small-caps;}
+.txt-right {text-align: right;}.txt-left {text-align: left;}.txt-center {text-align: center;}.txt-justify {text-align: justify;}
+
+.ir {background-color: transparent; border: 0; overflow: hidden; *text-indent: -9999px;}
+.ir:before {content: ""; display: block; width: 0; height: 100%;}
+.hidden {display: none; visibility: hidden}
+.hidden_visually {position:absolute; overflow:hidden; margin:-1px; padding:0; width:1px; height:1px; border:0; clip:rect(0 0 0 0)}
+.hidden_visually:active,
+.hidden_visually:focus {position: static; overflow: visible; clip: auto; margin: 0; width: auto; height: auto}
+.invisible {visibility: hidden}
+.lastunit {display: table-cell; float: none; width: auto; *display: block; *zoom:1; _position: relative; _left: -3px; _margin-right: -3px;}
+
+
+.pan{padding:0}.pas{padding:5px}.pam{padding:10px}.pal{padding:20px}
+.ptn{padding-top:0}.pts{padding-top:5px}.ptm{padding-top:10px}.ptl{padding-top:20px}
+.prn{padding-right:0}.prs{padding-right:5px}.prm{padding-right:10px}.prl{padding-right:20px}
+.pbn{padding-bottom:0}.pbs{padding-bottom:5px}.pbm{padding-bottom:10px}.pbl{padding-bottom:20px}
+.pln{padding-left:0}.pls{padding-left:5px}.plm{padding-left:10px}.pll{padding-left:20px}
+.phn{padding-left:0;padding-right:0}.phs{padding-left:5px;padding-right:5px}.phm{padding-left:10px;padding-right:10px}.phl{padding-left:20px;padding-right:20px}
+.pvn{padding-top:0;padding-bottom:0}.pvs{padding-top:5px;padding-bottom:5px}.pvm{padding-top:10px;padding-bottom:10px}.pvl{padding-top:20px;padding-bottom:20px}
+.man{margin:0}.mas{margin:5px}.mam{margin:10px}.mal{margin:20px}
+.mtn{margin-top:0}.mts{margin-top:5px}.mtm{margin-top:10px}.mtl{margin-top:20px}
+.mrn{margin-right:0}.mrs{margin-right:5px}.mrm{margin-right:10px}.mrl{margin-right:20px}
+.mbn{margin-bottom:0}.mbs{margin-bottom:5px}.mbm{margin-bottom:10px}.mbc{margin-bottom:14px}.mbl{margin-bottom:20px}
+.mln{margin-left:0}.mls{margin-left:5px}.mlm{margin-left:10px}.mll{margin-left:20px}
+.mhn{margin-left:0;margin-right:0}.mhs{margin-left:5px;margin-right:5px}.mhm{margin-left:10px;margin-right:10px}.mhl{margin-left:20px;margin-right:20px}
+.mvn{margin-top:0;margin-bottom:0}.mvs{margin-top:5px;margin-bottom:5px}.mvm{margin-top:10px;margin-bottom:10px}.mvl{margin-top:20px;margin-bottom:20px}
+.automargin {margin: 0 auto;}
+
+/*  Flex Display (rename?)
+--------------------------------------------------- /// */
+
+.add-shadow {-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2); -moz-box-shadow: 0 0 3px rgba(0,0,0,.2); -o-box-shadow: 0 0 3px rgba(0,0,0,.2); -khtml-box-shadow: 0 0 3px rgba(0,0,0,.2); box-shadow: 0 0 3px rgba(0,0,0,.2);}
+
+.rad2 {-webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; -khtml-border-radius: 2px; border-radius: 2px;}
+.rad3 {-webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px;}
+.rad4 {-webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;}
+
+.bdr-a-s {border: 1px solid #d1d1d1;}
+.bdr-t-s {border-top: 1px solid #d1d1d1;}
+.bdr-r-s {border-right: 1px solid #d1d1d1;}
+.bdr-b-s {border-bottom: 1px solid #d1d1d1;}
+.bdr-l-s {border-left: 1px solid #d1d1d1;}
+.bdr-h-s {border-left: 1px solid #d1d1d1; border-left: 1px solid #d1d1d1;}
+.bdr-v-s {border-top: 1px solid #d1d1d1; border-bottom: 1px solid #d1d1d1;}
+.bdr-a-n {border: none;}

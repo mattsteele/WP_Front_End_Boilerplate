@@ -1,0 +1,64 @@
+/*--------------------------------------------------------------
+  XX.X Pagination
+--------------------------------------------------------------*/
+
+.pagination li{
+	display: inline;
+}
+
+.pagination {
+	font-weight: bold;
+	font-size: 16px;
+	float: right;
+	margin-top: 20px;
+	@media only screen and (max-width : 875px) {
+		float: none;
+		text-align: center;
+	}
+
+	a {
+		padding: 8px 16px;
+		border: 2px solid $blue-1;
+		border-radius: 3px;
+		color: $orange-1;
+		text-decoration: none;
+		@media only screen and (max-width : 875px) {
+			padding: 8px 8px;
+		}
+		@media only screen and (max-width : 440px) {
+			padding: 8px 5px;
+		}
+
+		&:hover {
+			color: $blue-2;
+		}
+
+		&.active {
+			color: $blue-4;
+
+			&:hover { cursor: default; }
+		}
+	}
+
+	.prev {
+		&:before {
+			content: "« ";
+			font-weight: normal;
+		}
+	}
+
+	.next {
+		&:after {
+			content: " »";
+			font-weight: normal;
+		}
+	}
+
+	.next, .prev {
+		&:hover {
+			border-color: $blue-1;
+			color: $blue-2;
+			text-shadow: none;
+		}
+	}
+}

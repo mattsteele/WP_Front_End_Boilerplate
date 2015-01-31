@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+  XX.X Clears
+--------------------------------------------------------------*/
+
+.break {
+  clear: both;
+}
+
+.clearfloat {
+  clear: both; 
+  display: block; 
+  height: 1px; 
+  margin: -1px 0 0 0;
+}
+
+.line:after,
+.lastunit:after,
+.clearfix:after,
+.group:after {
+  content: "."; 
+  display: block; 
+  clear: both; 
+  visibility: hidden; 
+  overflow: hidden; 
+  line-height: 0; 
+  height: 0 !important;
+}
+
+.clearfix {
+  display: table;
+  // Why not display: table; ?
+}
+
+.line,
+.clearfix,
+.group {
+  *zoom:1;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}

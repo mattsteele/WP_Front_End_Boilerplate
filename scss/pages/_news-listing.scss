@@ -1,0 +1,28 @@
+/*  EVENTS LISTING PAGE
+=================================================================== /// */
+
+.news-listing-date{
+	padding: 0;
+	font-size: 16px;
+	color: #6b6b6b;
+}
+
+.news-listing-location{
+	font-size: 16px;
+	color: #6b6b6b;
+}
+
+.news-aside h3{
+	font-size: 20px;
+}
+
+.news-single-wrapper{
+  margin-bottom: 20px;
+  & h2{
+    padding-top: 0;
+  }
+}
+
+.news-single-wrapper p:first-of-type{
+  font-size: 24px;
+}

@@ -1,0 +1,44 @@
+/* # Contact specific styles */
+
+.contact-form{
+	background: $grey-2;
+	padding: 15px 0 15px 9%;
+	@media only screen and (max-width: 850px) {
+		padding: 15px 9% 15px 9%;
+	}
+}
+
+.contact-input-width{
+	width: 90%;
+	@media only screen and (max-width: 850px) {
+		width: 100%;
+	}
+}
+
+.required-label{
+	font-size: 10px;
+	padding-left: 5px;
+}
+
+.form-error{
+	color: red;
+	padding-left: 5px;
+}
+
+.log-button, button, html input[type="button"], input[type="reset"], input[type="submit"]{
+	font-family: $font-roboto;
+	font-weight: bold;
+	font-size: 18px;
+	color: $font-white;
+	background-color: $orange-1;
+	padding: 5px 10px;
+/*
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.66);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.66);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.66);
+*/
+	&:hover{
+		background-color: $orange-1;
+		color: $font-white;
+	}
+}

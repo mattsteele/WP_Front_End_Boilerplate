@@ -1,0 +1,118 @@
+/*  RESOURCES SINGLE PAGE
+=================================================================== /// */
+
+.breadcrumb-bar{
+	background-color: $blue-1;
+	margin-bottom: 50px;
+	& p{
+		color: #fff;
+		padding: 30px 0;
+		@media only screen and (max-width : 875px) {
+			padding: 5px 0;
+			text-align: center;
+		}
+		& a{
+			color: #fff;
+		}
+		& a:hover{
+			color: $orange-1;
+		}
+	}
+	@media only screen and (max-width : 875px) {
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
+}
+
+.resources-single-left{
+	float: left;
+	width: 30%;
+	@media only screen and (max-width : 875px) {
+		float: none;
+		width: auto;
+	}
+}
+
+.resources-single-left-right{
+	@media only screen and (max-width : 875px) {
+		float: right;
+		width: 50%;
+		padding-left: 10px;
+		& p{
+			display: inline-block;
+		}
+	}
+		@media only screen and (max-width : 725px) {
+		float: none;
+		width: auto;
+		text-align: center;
+		& p{
+			display: block;
+			& a.button{
+				display: inline-block;
+			}
+		}
+	}
+}
+
+
+.resources-single-left-left{
+	@media only screen and (max-width : 875px) {
+		float: left;
+		width: 50%;
+	}
+	@media only screen and (max-width : 725px) {
+		float: none;
+		width: auto;
+		text-align: center;
+	}
+}
+
+.resource-box p{
+	padding: 0;
+}
+
+.resource-address p{
+	padding: 0;
+}
+
+.resource-verified{
+	float: right;
+	padding-top: 10px;
+}
+
+.resource-verified span:before{
+	font-family: "icomoon";
+	content: "\e600";
+	color: red;
+}
+
+.resources-single-left .button{
+	text-transform: capitalize;
+	&:hover{
+		background-color: $blue-2;
+		color: $grey-2;
+	}
+}
+
+.resources-single-right{
+	float: right;
+	width: 65%;
+	@media only screen and (max-width : 875px) {
+		margin-top: 50px;
+	float: none;
+	width: auto;
+	}
+}
+
+.resources-single-right h2{
+	padding: 0;
+	display:inline-block;
+}
+
+.resources-single-right h5{
+	display:inline-block;
+	@media only screen and (max-width : 875px) {
+		display: block;
+	}
+}

@@ -1,0 +1,72 @@
+/*  RESOURCES LISTING PAGE
+=================================================================== /// */
+
+.resources-listing-left{
+	float: left;
+	width: 66.6%;
+		@media only screen and (max-width : 630px) {
+			float: none;
+			width: auto;
+	}
+}
+
+.resources-listing-right{
+	width: 27%;
+		@media only screen and (max-width : 630px) {
+			float: none;
+			width: auto;
+	}
+}
+
+.listing-intro{
+	padding: 10px 0;
+	margin-bottom: 50px;
+}
+
+.listing-person-wrapper{
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid $grey-1;
+}
+
+.resources-listing-container{
+	margin: 0 auto 30px auto;
+}
+
+.resources-listing-left-left{
+	float: left;
+	width: 41%;
+	@media only screen and (max-width : 875px) {
+		float: none;
+		width: auto;
+		@media only screen and (max-width : 630px) {
+		text-align: center;
+		}
+	}
+}
+
+.resources-listing-left-right{
+	float: right;
+	width: 59%;
+	padding-left: 5%;
+	@media only screen and (max-width : 875px) {
+		float: none;
+		width: auto;
+		padding-left: 0;
+		@media only screen and (max-width : 630px) {
+			margin-top: 10px;
+			text-align: left;
+		}
+	}
+}
+
+.listing-read-more{
+	text-align: right;
+	@media only screen and (max-width : 630px) {
+		text-align: center;
+	}
+}
+
+.resource-credentials{
+	padding: 0;
+}
