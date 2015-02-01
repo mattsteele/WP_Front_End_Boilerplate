@@ -15,9 +15,9 @@ em,.italic {font-style: italic;}.normal {font-style: normal;}.uppercase {text-tr
 .ir {background-color: transparent; border: 0; overflow: hidden; *text-indent: -9999px;}
 .ir:before {content: ""; display: block; width: 0; height: 100%;}
 .hidden {display: none; visibility: hidden}
-.hidden_visually {position:absolute; overflow:hidden; margin:-1px; padding:0; width:1px; height:1px; border:0; clip:rect(0 0 0 0)}
-.hidden_visually:active,
-.hidden_visually:focus {position: static; overflow: visible; clip: auto; margin: 0; width: auto; height: auto}
+.hidden-visually {position:absolute; overflow:hidden; margin:-1px; padding:0; width:1px; height:1px; border:0; clip:rect(0 0 0 0)}
+.hidden-visually:active,
+.hidden-visually:focus {position: static; overflow: visible; clip: auto; margin: 0; width: auto; height: auto}
 .invisible {visibility: hidden}
 .lastunit {display: table-cell; float: none; width: auto; *display: block; *zoom:1; _position: relative; _left: -3px; _margin-right: -3px;}
 
