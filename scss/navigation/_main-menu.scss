@@ -29,7 +29,7 @@ nav ul {padding: 0;}
 
 .utility-nav li{
 	display: inline-block;
-	font-family: $font-roboto;
+	font-family: $font-lato;
 	font-size: 15px;
 	&	a{
 		color: $pure-white;
@@ -71,7 +71,7 @@ nav ul {padding: 0;}
 
 #primary-nav > ul > li {
 	font-size: 22px;
-	font-family: $font-roboto;
+	font-family: $font-lato;
 	text-align: center;
 	position: relative;
 	display: inline-block;
@@ -162,7 +162,7 @@ nav ul {padding: 0;}
 #primary-nav ul ul li {
 	display: block;
 	margin-right: 0;
-	font-weight: $font-roboto;
+	font-weight: $font-lato;
 	line-height: 24px;
 	text-align: left;
 	padding-left: 10px;
@@ -198,7 +198,7 @@ nav ul {padding: 0;}
 	padding: 8px;
 	text-decoration: none;
 	color: #fff;
-	font-family: $font-roboto;
+	font-family: $font-lato;
 }
 
 .nav-toggle a.open {background-position: 92% -44px;}

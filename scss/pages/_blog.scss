@@ -1,0 +1,65 @@
+/*  BLOG PAGES
+=================================================================== /// */
+
+.blog-archive-left{
+  float: left;
+  width: 66%;
+  @media only screen and (max-width: 800px) {
+    float: none;
+    width: auto;
+  }
+}
+
+.blog-archive-right{
+  float: right;
+  width: 30%;
+  @media only screen and (max-width: 800px) {
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+}
+
+.readmore-link {
+  display: block;
+  text-align: right;
+  padding-right: 20px;
+  font-weight: bold;
+  &:active{
+    color: $blue-3;
+  }
+}
+
+.blog-sidebar{
+  padding-top: 42px;
+  h3{
+    color: $blue-1;
+  }
+}
+
+
+.blog-listing-date{
+	padding: 0;
+	font-size: 16px;
+	color: #6b6b6b;
+}
+
+.blog-listing-location{
+	font-size: 16px;
+	color: #6b6b6b;
+}
+
+.blog-aside h3{
+	font-size: 20px;
+}
+
+.blog-single-wrapper{
+  margin-bottom: 20px;
+  & h2{
+    padding-top: 0;
+  }
+}
+
+.blog-single-wrapper p:first-of-type{
+  font-size: 24px;
+}

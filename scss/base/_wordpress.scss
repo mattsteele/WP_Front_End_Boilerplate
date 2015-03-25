@@ -1,8 +1,7 @@
-/*--------------------------------------------------------------
-  XX.X WordPress Built-in Styles
---------------------------------------------------------------*/
-
-WordPress Comments Defaults
+/*
+* WordPress Defaults
+=================================================================== /// 
+*/
 
 
 // BODY
@@ -48,9 +47,227 @@ img.alignleft {}
 img.alignright {}
 img.aligncenter {}
 
-.wp-caption {} /* img caption */
-.gallery {}
-.gallery-caption {}
+
+
+
+
+/* =Images
+ ----------------------------------------------- */
+
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  border: none;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 10px 0 0 0;
+}
+
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0 auto;
+}
+.wp-caption-text {
+  text-align: center;
+}
+
+.gallery-caption,
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+  padding: 0.8075em 1em;
+  background: #e5e5e5;
+  background: hsl(0, 0%, 90%);
+  // border-left: #fff solid 5px;
+  // border-right: #fff solid 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+/* Due to HTML5 galleries being activated defaul gallery styling does not apply.*/
+
+.gallery {
+  margin: auto 0;
+  padding: 6px;
+  width: 712px;
+}
+
+.gallery:after {
+content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+  line-height: 0;
+  height: 0 !important;
+}
+
+.gallery-item:hover .gallery-caption {
+  opacity: 1;
+}
+
+.gallery img {
+        display: block;
+}
+.gallery a img {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  float: left;
+  width: auto!important;
+  margin-right: 3.333333333%!important;
+  margin-bottom: 30px!important;
+  padding: 0!important;
+  background: #333;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-caption {
+  background-color: hsla(0, 0%, 0%, .8);
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0!important;
+  border: none;
+  max-height: 50%;
+  opacity: 0;
+  padding: 6px 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  width: 100%;
+}
+
+/* =Alignment
+----------------------------------------------- */
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+  margin-bottom: 15px;
+}
+.aligncenter {
+  clear: right;
+  display: block;
+  margin: 0 auto;
+}
+
+/* =Blockquotes
+----------------------------------------------- */
+blockquote p {
+  font-size: 28px;
+  line-height: 1.5em;
+}
+
+blockquote {
+  margin-bottom: 1em;
+  border-top: solid 1px hsl(0, 0%, 80%);
+  border-bottom: solid 1px hsl(0, 0%, 80%);
+  border-radius: 5px;
+  border-left: 0;
+  font-style: italic;
+  background: url('./assets/i/quote.png') no-repeat 8px 12px;
+  padding: 10px 10px 10px 60px;
+}
+
+blockquote.alignleft {
+  float: left;
+  width: 50%;
+  padding: 1em 0 0;
+  margin-right: 1.5em;
+}
+
+blockquote.alignright {
+  float: right;
+  width: 50%;
+  padding: 1em 0 0;
+  margin-left: 1.5em;
+}
+
+blockquote em {
+  font-style: normal;
+}
+
+blockquote cite {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  text-align: right;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-left: 40%;
+}
+
+blockquote.alignleft cite {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 40%;
+}
+
+
+
+/* Working with image galleries */
+
+.gallery-caption {
+  padding: 0.8075em 1em;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: 'Lato', sans-serif;
+  background: #e5e5e5;
+  background: hsl(0, 0%, 90%);
+}
+.site-main .gallery {
+  margin-bottom: 1.5em;
+}
+.site-main .gallery-item {
+    position: relative;
+    max-width:100%;
+    float: left;
+    margin-right: 3.333333333%;
+    margin-bottom: 3rem;
+    background: #333;
+    overflow: hidden;
+}
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-height: 50%;
+    width: 100%;
+    padding: 6px 8px;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-color: hsla(0, 0%, 0%, .8);
+    opacity: 0;
+}
+.gallery-item:hover .gallery-caption { 
+    opacity: 1; 
+}
+.site-main .gallery a img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
 
 /* styles for img sizes */
 img.size-full {}
@@ -59,13 +276,11 @@ img.size-medium {}
 img.size-thumbnail {}
 
 /* not classes, but surely something you should take care of */
-blockquote {}
+
 code {}
 pre {}
 hr {}
 del {}
-
-
 
 // WIDGETS
 
@@ -98,6 +313,94 @@ del {}
 /* Recent Comments */
 .widget_recent_comments {} /* used next to .widget (on the same tag) */
 .recentcomments {} /* on each item in the &lt;ul&gt; list */
+
+
+
+
+/* Styling Comments  */
+.comments-title {
+    font-weight: 900;
+    font-size: 36px;
+    font-size: 3.6rem;
+}
+
+.comments-area > ol {
+    padding: 0;
+    margin: 2em 0;
+    list-style-type: none;
+}
+
+ol.children { list-style-type: none; }
+
+.comment-list ol { margin-left: 50px; }
+
+.comment-meta { margin-bottom: 1em; }
+
+.comment-author .avatar {
+    width: 50px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.comment-author .fn {
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-size: 2rem;
+}
+
+.comment-metadata {
+    font-size: 14px;
+    font-size:1.4rem;
+}
+
+.comment-content { font-size: 90%; }
+
+.comment-content,
+.reply { margin-left: 70px; }
+
+.comment-body {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: solid hsl(0, 0%, 80%) 1px;
+}
+
+.comment-content a {
+  word-wrap: break-word;
+}
+
+.comment-content ol { margin-left: 1.5em; }
+
+.reply {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+/* Comments responsive */
+@media screen and (max-width:600px) {
+    .comment-list ol { margin-left: 0; }
+    
+    .comment-content ol { margin-left: 1.5em; }
+    
+    .comment-content,
+    .reply { margin-left: 0; }
+}
+
+
+/* Highlighting post author comments  */
+.bypostauthor > .comment-body {
+    position: relative;
+    padding: 1em;
+    margin-bottom: 2em;
+    background: hsl(0, 0%, 93%);
+    border: none;
+}
+
+
+
 
 /* Recent Posts */
 .widget_recent_entries {} /* used next to .widget (on the same tag) */
