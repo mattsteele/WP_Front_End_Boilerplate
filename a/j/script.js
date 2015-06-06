@@ -1,6 +1,6 @@
-// slide menu up and down
+(function($){
 
-$(document).ready(function() {
+	// slide menu up and down
 
 		$('.nav-toggle').click(function(e){
 
@@ -45,10 +45,10 @@ $(document).ready(function() {
 			});
 		}
 	});
-});
+
 // SLIDE ASIDE DRAWER UP AND DOWN
 
-$(document).ready(function() {
+
 
 		$('.aside-toggle').click(function(e){
 
@@ -67,13 +67,11 @@ $(document).ready(function() {
 			e.preventDefault();
 			});
 
-});
 
-	$(document).ready(function() {
 		$('.scrollable').click(function(e){
 			e.preventDefault();
 			var id = $(this).attr('href');
 				$('html,body').animate({scrollTop: $(id).offset().top},'slow');
 			e.preventDefault();
 		});
-});
+	})(jQuery);
