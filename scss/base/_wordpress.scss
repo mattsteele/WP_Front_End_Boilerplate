@@ -1,6 +1,6 @@
 /*
 * WordPress Defaults
-=================================================================== /// 
+=================================================================== ///
 */
 
 
@@ -180,7 +180,7 @@ blockquote {
   border-radius: 5px;
   border-left: 0;
   font-style: italic;
-  background: url('./assets/i/quote.png') no-repeat 8px 12px;
+  background: url('a/i/quote.png') no-repeat 8px 12px;
   padding: 10px 10px 10px 60px;
 }
 
@@ -258,8 +258,8 @@ blockquote.alignleft cite {
     background-color: hsla(0, 0%, 0%, .8);
     opacity: 0;
 }
-.gallery-item:hover .gallery-caption { 
-    opacity: 1; 
+.gallery-item:hover .gallery-caption {
+    opacity: 1;
 }
 .site-main .gallery a img {
     max-width: 100%;
@@ -382,9 +382,9 @@ ol.children { list-style-type: none; }
 /* Comments responsive */
 @media screen and (max-width:600px) {
     .comment-list ol { margin-left: 0; }
-    
+
     .comment-content ol { margin-left: 1.5em; }
-    
+
     .comment-content,
     .reply { margin-left: 0; }
 }
