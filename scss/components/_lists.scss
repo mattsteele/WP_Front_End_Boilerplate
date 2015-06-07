@@ -23,17 +23,17 @@ ul {
 }
 
 ol {
-  list-style: decimal; 
+  list-style: decimal;
   list-style-position: inside;
 }
 
 ul {
-  list-style: none; 
+  list-style: disc; 
   list-style-position: inside;
 }
 
 nav ul,
 nav ol {
-  list-style: none; 
+  list-style: none;
   list-style-image: none;
 }
