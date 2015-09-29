@@ -665,8 +665,8 @@ h6 {
 
 @font-face {
   font-family: 'site-icon';
-  src: url("/a/f/site-icon.eot?epvx5l");
-  src: url("/a/f/site-icon.eot?#iefixepvx5l") format("embedded-opentype"), url("/a/f/site-icon.woff?epvx5l") format("woff"), url("/a/f/site-icon.ttf?epvx5l") format("truetype"), url("/a/f/site-icon.svg?epvx5l#site-icon") format("svg");
+  src: url("/assets/fonts/site-icon.eot?epvx5l");
+  src: url("/assets/fonts/site-icon.eot?#iefixepvx5l") format("embedded-opentype"), url("/assets/fonts/site-icon.woff?epvx5l") format("woff"), url("/assets/fonts/site-icon.ttf?epvx5l") format("truetype"), url("/assets/fonts/site-icon.svg?epvx5l#site-icon") format("svg");
   font-weight: normal;
   font-style: normal; }
 .site-icon {
@@ -933,7 +933,7 @@ blockquote {
   border-radius: 5px;
   border-left: 0;
   font-style: italic;
-  background: url("a/i/quote.png") no-repeat 8px 12px;
+  background: url("/assets/img/quote.png") no-repeat 8px 12px;
   padding: 10px 10px 10px 60px; }
 
 blockquote.alignleft {
@@ -1527,7 +1527,7 @@ nav ul {
   margin-left: -11px;
   width: 22px;
   height: 11px;
-  background: url(/a/i/nav_arrow.png) no-repeat 0 0; }
+  background: url(/assets/img/nav_arrow.png) no-repeat 0 0; }
 
 #primary-nav li span {
   display: none; }
@@ -1541,7 +1541,7 @@ nav ul {
 
 .nav-toggle a {
   display: block;
-  background: url(/a/i/nav_white.png) no-repeat 92% 11px;
+  background: url(/assets/img/nav_white.png) no-repeat 92% 11px;
   background-color: #6582A1;
   cursor: pointer;
   padding: 8px;
@@ -1791,7 +1791,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   width: auto;
   max-width: 50%;
   height: auto;
-  background: url(../i/select_arrow.png) no-repeat 98% center #fff;
+  background: url(/assets/img/select_arrow.png) no-repeat 98% center #fff;
   border: 1px solid #ccc;
   overflow: hidden;
   -webkit-border-radius: 4px;
@@ -2150,7 +2150,7 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
 .hero-wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  background: url(/a/i/hero-image-1200x558.jpg) no-repeat center center;
+  background: url(/assets/img/hero-image-1200x558.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
