@@ -1014,6 +1014,24 @@ blockquote.alignleft cite {
 
 /* styles for img sizes */
 /* not classes, but surely something you should take care of */
+code {
+  margin: 0 2px;
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: #444;
+  color: #fff;
+  padding: 15px;
+  margin: 35px 0; }
+
 /* top level class for every widget */
 /* usually on the inner header element */
 /* Archives */
