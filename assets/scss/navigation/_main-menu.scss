@@ -181,7 +181,7 @@ nav ul {padding: 0;}
 	color: #fff;
 }
 
-#primary-nav li.arrow {position: absolute; top: -11px; left: 35px; margin-left: -11px; width: 22px; height: 11px; background: url(/assets/img/nav_arrow.png) no-repeat 0 0;}
+#primary-nav li.arrow {position: absolute; top: -11px; left: 35px; margin-left: -11px; width: 22px; height: 11px; background: url(../img/nav_arrow.png) no-repeat 0 0;}
 
 #primary-nav li span {
 	display: none;
@@ -192,7 +192,7 @@ nav ul {padding: 0;}
 .nav-toggle {display: none; text-align: center;}
 .nav-toggle a {
 	display: block;
-	background: url(/assets/img/nav_white.png) no-repeat 92% 11px;
+	background: url(../img/nav_white.png) no-repeat 92% 11px;
 	background-color: $blue-1;
 	cursor: pointer;
 	padding: 8px;

@@ -10,7 +10,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {color: #96968d;}
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #96968d;}
 
 /* -- Styled Selects - wrapped due to FF appearance bug -- */
-.styled-select {display: block; margin: 0; padding: 0; width: auto; max-width: 50%; height: auto; background:url(/assets/img/select_arrow.png) no-repeat 98% center #fff; border: 1px solid #ccc; overflow: hidden; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;}
+.styled-select {display: block; margin: 0; padding: 0; width: auto; max-width: 50%; height: auto; background:url(../img/select_arrow.png) no-repeat 98% center #fff; border: 1px solid #ccc; overflow: hidden; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;}
 .styled-select select {display: block; margin: 0; white-space: nowrap; width: 100%; outline: none; border: none; background: transparent; cursor: pointer; -moz-appearance: window; -webkit-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; outline: none;}
 .styled-select:hover {-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2); -moz-box-shadow: 0 0 3px rgba(0,0,0,.2); -o-box-shadow: 0 0 3px rgba(0,0,0,.2); -khtml-box-shadow: 0 0 3px rgba(0,0,0,.2); box-shadow: 0 0 3px rgba(0,0,0,.2);}
 

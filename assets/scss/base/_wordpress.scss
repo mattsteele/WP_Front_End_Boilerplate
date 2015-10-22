@@ -180,7 +180,7 @@ blockquote {
   border-radius: 5px;
   border-left: 0;
   font-style: italic;
-  background: url('/assets/img/quote.png') no-repeat 8px 12px;
+  background: url('../img/quote.png') no-repeat 8px 12px;
   padding: 10px 10px 10px 60px;
 }
 
@@ -415,9 +415,6 @@ ol.children { list-style-type: none; }
     background: hsl(0, 0%, 93%);
     border: none;
 }
-
-
-
 
 /* Recent Posts */
 .widget_recent_entries {} /* used next to .widget (on the same tag) */

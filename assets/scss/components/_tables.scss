@@ -17,7 +17,7 @@ td, td img {vertical-align: top}
 
 .events_searchform {position: relative; width: 33%; background: #fff; padding: 10px; margin: 0 0 20px 0;}
 .events_searchform input.search_field {width: 86%; padding: 5px 10% 5px 3%; border: 1px solid #d3d3ca; color: #696965; font-size: 16px;}
-.events_searchform input.search_submit {position: absolute; width: 17px; height: 17px; top: 50%; margin-top: -8px; right: 20px; background: url(../i/search_pos.png) no-repeat center center; text-indent: -9999em;}
+.events_searchform input.search_submit {position: absolute; width: 17px; height: 17px; top: 50%; margin-top: -8px; right: 20px; background: url(../img/search_pos.png) no-repeat center center; text-indent: -9999em;}
 
 table.events_calendar {background: #e9e8df; width: 100%; border: 1px solid #d0cfc6;}
 table.events_calendar td {text-align: center;}
@@ -47,7 +47,7 @@ table.events_calendar.full td.calendar-blank {background: #f6f5ee;}
 .event {display: inline-block; *display: inline; zoom: 1; position: relative; font-size: 21px; width: 10px; padding: 3px; z-index: 50; background: none !important;}
 .event-details {display: none; position: absolute; bottom: 28px; left: 50%; width: 170px; padding: 2px 15px; margin-left: -100px; min-height: 100px; background: #fff; border: 1px solid #ccc; text-align: left; z-index: 100;}
 .event:hover .event-details {display: block;}
-.event-details .arrow {position: absolute; bottom: -9px; left: 50%; width: 17px; height: 9px; margin-left: -8px; background: url(../i/event-arrow.png) no-repeat 0 0;}
+.event-details .arrow {position: absolute; bottom: -9px; left: 50%; width: 17px; height: 9px; margin-left: -8px; background: url(../img/event-arrow.png) no-repeat 0 0;}
 table.events_calendar.full tbody td:first-child .event-details {left: 0; margin-left: 0;}
 table.events_calendar.full tbody td:first-child .event-details .arrow {left: -1px; margin-left: 0;}
 table.events_calendar.full tbody td:last-child .event-details {left: auto; right: 0; margin-left: 0;}
