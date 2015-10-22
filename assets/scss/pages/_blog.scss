@@ -4,7 +4,7 @@
 .blog-archive-left{
   float: left;
   width: 66%;
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 865px) {
     float: none;
     width: auto;
   }
@@ -13,7 +13,7 @@
 .blog-archive-right{
   float: right;
   width: 30%;
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 865px) {
     float: none;
     width: auto;
     text-align: center;

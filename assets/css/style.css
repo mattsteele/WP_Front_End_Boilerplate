@@ -1086,7 +1086,7 @@ ol.children {
   font-size: 1.4rem; }
 
 /* Comments responsive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 865px) {
   .comment-list ol {
     margin-left: 0; }
 
@@ -1295,7 +1295,7 @@ nav ul {
   position: absolute;
   top: 0;
   left: 0; }
-  @media screen and (max-width: 445px) {
+  @media screen and (max-width: 865px) {
     .utility-nav {
       position: static;
       float: none;
@@ -1328,7 +1328,7 @@ nav ul {
   float: right;
   margin-top: 51px;
   width: auto; }
-  @media only screen and (max-width: 875px) {
+  @media only screen and (max-width: 865px) {
     .nav {
       clear: both; } }
 
@@ -1349,7 +1349,7 @@ nav ul {
   margin-right: 14px; }
   #primary-nav > ul > li a {
     color: #565656; }
-    @media only screen and (max-width: 875px) {
+    @media only screen and (max-width: 865px) {
       #primary-nav > ul > li a {
         color: #fff; } }
 
@@ -1470,7 +1470,7 @@ html.ie8 #primary-nav ul ul {
 #primary-nav > ul > li.current-nav {
   /* background-color: $grey-1;	 */
   border-bottom: 3px solid #F19525; }
-  @media screen and (max-width: 875px) {
+  @media screen and (max-width: 865px) {
     #primary-nav > ul > li.current-nav {
       border-bottom: 0; } }
   #primary-nav > ul > li.current-nav a {
@@ -1482,7 +1482,7 @@ html.ie8 #primary-nav ul ul {
 .parent-current-nav a {
   color: #fff !important; }
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 865px) {
   /*
   	============================================
   	    RESPONSIVE NAVIGATION
@@ -1614,7 +1614,7 @@ html.ie8 #primary-nav ul ul {
   font-size: 16px;
   float: right;
   margin-top: 20px; }
-  @media only screen and (max-width: 875px) {
+  @media only screen and (max-width: 865px) {
     .pagination {
       float: none;
       text-align: center; } }
@@ -1624,7 +1624,7 @@ html.ie8 #primary-nav ul ul {
     border-radius: 3px;
     color: #F19525;
     text-decoration: none; }
-    @media only screen and (max-width: 875px) {
+    @media only screen and (max-width: 865px) {
       .pagination a {
         padding: 8px 8px; } }
     @media only screen and (max-width: 440px) {
@@ -2101,13 +2101,13 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
 .contact-form {
   background: #EEEEEE;
   padding: 15px 0 15px 9%; }
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 865px) {
     .contact-form {
       padding: 15px 9% 15px 9%; } }
 
 .contact-input-width {
   width: 90%; }
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 865px) {
     .contact-input-width {
       width: 100%; } }
 
@@ -2232,14 +2232,14 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
 .resources-listing-left {
   float: left;
   width: 66.6%; }
-  @media only screen and (max-width: 630px) {
+  @media only screen and (max-width: 865px) {
     .resources-listing-left {
       float: none;
       width: auto; } }
 
 .resources-listing-right {
   width: 27%; }
-  @media only screen and (max-width: 630px) {
+  @media only screen and (max-width: 865px) {
     .resources-listing-right {
       float: none;
       width: auto; } }
@@ -2259,11 +2259,11 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
 .resources-listing-left-left {
   float: left;
   width: 41%; }
-  @media only screen and (max-width: 875px) {
+  @media only screen and (max-width: 865px) {
     .resources-listing-left-left {
       float: none;
       width: auto; } }
-  @media only screen and (max-width: 875px) and (max-width: 630px) {
+  @media only screen and (max-width: 865px) and (max-width: 630px) {
     .resources-listing-left-left {
       text-align: center; } }
 
@@ -2271,12 +2271,12 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
   float: right;
   width: 59%;
   padding-left: 5%; }
-  @media only screen and (max-width: 875px) {
+  @media only screen and (max-width: 865px) {
     .resources-listing-left-right {
       float: none;
       width: auto;
       padding-left: 0; } }
-  @media only screen and (max-width: 875px) and (max-width: 630px) {
+  @media only screen and (max-width: 865px) and (max-width: 630px) {
     .resources-listing-left-right {
       margin-top: 10px;
       text-align: left; } }
@@ -2298,7 +2298,7 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
   .breadcrumb-bar p {
     color: #fff;
     padding: 30px 0; }
-    @media only screen and (max-width: 875px) {
+    @media only screen and (max-width: 865px) {
       .breadcrumb-bar p {
         padding: 5px 0;
         text-align: center; } }
@@ -2306,7 +2306,7 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
       color: #fff; }
     .breadcrumb-bar p a:hover {
       color: #F19525; }
-  @media only screen and (max-width: 875px) {
+  @media only screen and (max-width: 865px) {
     .breadcrumb-bar {
       margin-bottom: 25px;
       margin-top: 25px; } }
@@ -2314,12 +2314,12 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
 .resources-single-left {
   float: left;
   width: 30%; }
-  @media only screen and (max-width: 875px) {
+  @media only screen and (max-width: 865px) {
     .resources-single-left {
       float: none;
       width: auto; } }
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 865px) {
   .resources-single-left-right {
     float: right;
     width: 50%;
@@ -2336,7 +2336,7 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
       .resources-single-left-right p a.button {
         display: inline-block; } }
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 865px) {
   .resources-single-left-left {
     float: left;
     width: 50%; } }
@@ -2370,7 +2370,7 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
 .resources-single-right {
   float: right;
   width: 65%; }
-  @media only screen and (max-width: 875px) {
+  @media only screen and (max-width: 865px) {
     .resources-single-right {
       margin-top: 50px;
       float: none;
@@ -2382,7 +2382,7 @@ table.events_calendar.full tbody td:last-child .event-details .arrow {
 
 .resources-single-right h5 {
   display: inline-block; }
-  @media only screen and (max-width: 875px) {
+  @media only screen and (max-width: 865px) {
     .resources-single-right h5 {
       display: block; } }
 

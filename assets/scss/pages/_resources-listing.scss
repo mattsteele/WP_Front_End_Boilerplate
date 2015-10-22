@@ -4,7 +4,7 @@
 .resources-listing-left{
 	float: left;
 	width: 66.6%;
-		@media only screen and (max-width : 630px) {
+		@media only screen and (max-width: 865px) {
 			float: none;
 			width: auto;
 	}
@@ -12,7 +12,7 @@
 
 .resources-listing-right{
 	width: 27%;
-		@media only screen and (max-width : 630px) {
+		@media only screen and (max-width: 865px) {
 			float: none;
 			width: auto;
 	}
@@ -36,10 +36,10 @@
 .resources-listing-left-left{
 	float: left;
 	width: 41%;
-	@media only screen and (max-width : 875px) {
+	@media only screen and (max-width: 865px) {
 		float: none;
 		width: auto;
-		@media only screen and (max-width : 630px) {
+		@media only screen and (max-width: 630px) {
 		text-align: center;
 		}
 	}
@@ -49,11 +49,11 @@
 	float: right;
 	width: 59%;
 	padding-left: 5%;
-	@media only screen and (max-width : 875px) {
+	@media only screen and (max-width: 865px) {
 		float: none;
 		width: auto;
 		padding-left: 0;
-		@media only screen and (max-width : 630px) {
+		@media only screen and (max-width: 630px) {
 			margin-top: 10px;
 			text-align: left;
 		}
@@ -62,7 +62,7 @@
 
 .listing-read-more{
 	text-align: right;
-	@media only screen and (max-width : 630px) {
+	@media only screen and (max-width: 630px) {
 		text-align: center;
 	}
 }

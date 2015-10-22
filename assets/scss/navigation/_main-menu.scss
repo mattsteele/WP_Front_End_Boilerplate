@@ -18,7 +18,7 @@ nav ul {padding: 0;}
 	position: absolute;
 	top: 0;
 	left: 0;
-		@media screen and (max-width: 445px) {
+		@media screen and (max-width: 865px) {
 			position: static;
 			float: none;
 			text-align: center;
@@ -59,7 +59,7 @@ nav ul {padding: 0;}
 	float: right;
 	margin-top: 51px;
 	width: auto;
-	@media only screen and (max-width : 875px) {
+	@media only screen and (max-width : 865px) {
 		clear: both;
 	}
 }
@@ -81,7 +81,7 @@ nav ul {padding: 0;}
 	margin-right: 14px;
 	& a{
 		color: $grey-3;
-		@media only screen and (max-width : 875px) {
+		@media only screen and (max-width : 865px) {
 			color: $font-white;
 		}
 	}
@@ -210,7 +210,7 @@ html.ie8 #primary-nav ul ul {border: 1px solid #ccc;}
 #primary-nav > ul > li.current-nav{
 	/* background-color: $grey-1;	 */
 	border-bottom: 3px solid $orange-1;
-	@media screen and (max-width: 875px) {
+	@media screen and (max-width: 865px) {
 		border-bottom: 0;
 	}
 	& a{
@@ -229,7 +229,7 @@ html.ie8 #primary-nav ul ul {border: 1px solid #ccc;}
 
 
 
-@media only screen and (max-width : 875px) {
+@media only screen and (max-width : 865px) {
 /*
 	============================================
 	    RESPONSIVE NAVIGATION
